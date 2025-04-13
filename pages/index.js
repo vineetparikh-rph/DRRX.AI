@@ -6,12 +6,14 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100 text-gray-900 flex flex-col items-center justify-center px-4">
       <div className="w-full max-w-4xl text-center">
         <div className="mb-6">
-          <Image
-            src="/logo-drrx-ai.png"
-            alt="DRRX-AI Logo"
-            width={120}
-            height={120}
-            className="mx-auto"
+          <<Image
+  src="/drrx-ai_logo.webp"
+  alt="DRRX-AI Logo"
+  width={120}
+  height={120}
+  className="mx-auto"
+/>
+
           />
         </div>
 
