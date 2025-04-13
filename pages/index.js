@@ -8,7 +8,7 @@ export default function Home() {
       <div className="w-full max-w-4xl text-center">
         <div className="mb-6">
           <Image
-            src="/DRRX-AI Animated Logo.svg"
+            src="/drrx-ai-logo.svg"
             alt="DRRX-AI Logo"
             width={160}
             height={160}
@@ -16,12 +16,9 @@ export default function Home() {
           />
         </div>
 
-        <h1 className="text-4xl sm:text-5xl font-bold mb-2">
-          Empowering Healthcare with Smart AI.
+        <h1 className="text-4xl sm:text-5xl font-bold mb-4">
+          Empowering Healthcare with Smart AI. <br /> Better Systems. Better Care.
         </h1>
-        <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-blue-700">
-          Better Systems. Better Care.
-        </h2>
 
         <p className="text-lg sm:text-xl mb-6 text-gray-700">
           DRRX-AI delivers scalable, intelligent, and empathetic patient engagement tools using voice, text, and real-time data to revolutionize the healthcare systems and workflows.
