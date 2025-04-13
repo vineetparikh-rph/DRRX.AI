@@ -24,15 +24,15 @@ export default function Home() {
         </p>
 
         <div className="flex justify-center gap-4 flex-wrap">
-          <Link
-            href="https://calendly.com/drrx-ai/demo"
+          <a
+            href="https://calendly.com/drrxllc/30min"
             target="_blank"
             rel="noopener noreferrer"
           >
             <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow transition">
               Request a Demo
             </button>
-          </Link>
+          </a>
 
           <Link href="/team">
             <button className="bg-gray-300 hover:bg-gray-400 text-gray-900 font-semibold px-6 py-3 rounded-lg shadow transition">
