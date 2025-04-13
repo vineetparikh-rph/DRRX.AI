@@ -1,0 +1,1 @@
+export default function FAQ() { return <div className='p-10 text-center'>Frequently Asked Questions about DRRX-AI.</div>; }

@@ -1,0 +1,1 @@
+export default function Demo() { return <div className='p-10 text-center'>Interactive product demo coming soon.</div>; }
