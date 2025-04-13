@@ -1,3 +1,4 @@
+// pages/index.js
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -6,14 +7,12 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100 text-gray-900 flex flex-col items-center justify-center px-4">
       <div className="w-full max-w-4xl text-center">
         <div className="mb-6">
-          <<Image
-  src="/drrx-ai_logo.webp"
-  alt="DRRX-AI Logo"
-  width={120}
-  height={120}
-  className="mx-auto"
-/>
-
+          <Image
+            src="/DRRX-AI_Logo.webp"
+            alt="DRRX-AI Logo"
+            width={120}
+            height={120}
+            className="mx-auto"
           />
         </div>
 
@@ -40,4 +39,4 @@ export default function Home() {
       </div>
     </div>
   )
-} // ✅ ONLY this closing brace
+}
