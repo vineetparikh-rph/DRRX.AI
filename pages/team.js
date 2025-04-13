@@ -8,9 +8,9 @@ export default function Team() {
         <h1 className="text-4xl font-bold text-center mb-10">Meet the Team</h1>
 
         <section className="space-y-6">
-          <h2 className="text-2xl font-semibold">Dr. Vineet Parikh, PharmD – CEO</h2>
+          <h2 className="text-2xl font-semibold">Vineet Parikh, PharmD – CEO</h2>
           <p>
-            Dr. Vineet Parikh, PharmD, is a pharmacist, entrepreneur, and digital healthcare builder on a mission to
+            Dr. Vineet Parikh is a pharmacist, entrepreneur, and digital healthcare builder on a mission to
             transform how care is delivered. As the founder of multiple pharmacy ventures, he combines clinical
             insight, business strategy, and technology to solve real-world healthcare problems — with empathy and
             impact at the core.
@@ -39,4 +39,23 @@ export default function Team() {
           </p>
           <p>
             He brings proven business transformation skills and strong technical expertise that touch every part of
-            an organization to drive operational efficiency and strategic growth.
+            an organization to drive operational efficiency and strategic growth. Sankar has led complex global
+            programs deploying ERP, CRM, BI, and web applications, and has been a trusted advisor to senior
+            management teams across continents.
+          </p>
+          <p>
+            With strong business development experience and a deep understanding of IT outsourcing, Sankar forges
+            lasting relationships and builds consensus across teams, clients, and stakeholders. His work consistently
+            aligns technology with business goals to deliver lasting impact.
+          </p>
+        </section>
+
+        <div className="mt-12 text-center">
+          <Link href="/" className="text-blue-600 hover:underline">
+            ← Back to Home
+          </Link>
+        </div>
+      </div>
+    </div>
+  )
+}
